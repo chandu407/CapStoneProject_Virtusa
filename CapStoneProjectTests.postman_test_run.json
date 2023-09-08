@@ -1,0 +1,84 @@
+{
+	"id": "2347143c-fc99-42c9-ad2b-392cb6ae77bd",
+	"name": "CapStoneProjectTests",
+	"timestamp": "2023-09-08T09:44:29.640Z",
+	"collection_id": "15235684-fbeea622-5b54-448a-89b8-089935258a4e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-08T09:44:28.862Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "e5ef4737-820d-449d-b821-8e779c60ac33",
+			"name": "New Request",
+			"url": "https://reqres.in/api/users?page={pageId)",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Status code": true,
+				"Validate Page no": false
+			},
+			"testPassFailCounts": {
+				"Verify Status code": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Validate Page no": {
+					"pass": 0,
+					"fail": 6
+				}
+			},
+			"times": [
+				39,
+				45,
+				49,
+				43,
+				41,
+				44
+			],
+			"allTests": [
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				},
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				},
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				},
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				},
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				},
+				{
+					"Verify Status code": true,
+					"Validate Page no": false
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 261,
+	"collection": {
+		"requests": [
+			{
+				"id": "e5ef4737-820d-449d-b821-8e779c60ac33",
+				"method": "GET"
+			}
+		]
+	}
+}
