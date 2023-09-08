@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login Functionality" verbose="1" >
+
+    <test name="Login">
+        <parameter name="username_valid" value="standard_user" />
+        <parameter name="pwd_valid" value="secret_sauce" />
+        <parameter name="username_invalid" value="standard_Invaliduser" />
+        <parameter name="pwd_invalid" value="secret_Invalidpwd" />
+        <classes>
+            <class name="src.Java.testsuite.CapStonePrjctTest">
+                <methods>
+                    <include name="testLoginSuccess" />
+                    <include name="testLoginFailure" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
